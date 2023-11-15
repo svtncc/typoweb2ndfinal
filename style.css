@@ -1,0 +1,237 @@
+	body {
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		font-family: 'Gabarito', cursive;
+		font-size: 2em;
+		background-color: #1F2237;
+		z-index: 1;
+	}
+	.center {
+		display: flex;
+		margin: auto;
+		text-align: center;
+		justify-content: center;
+		background-color: #5667A3;
+	}
+	/* for the navigation bar at the top of the page */
+	.navlist  {
+		width: 100%;
+		margin: 0;
+		list-style-type: none;
+		padding: 0;
+		overflow: hidden;
+		position: fixed;
+		background-color: #5667A3;
+		z-index: 9999;
+	}
+	.navlist ul {
+		width: 50%;
+	}
+	.navlist  li {
+		float: left;
+	}
+	.navlist li a {
+		display: inline-block;
+		color: #f1eff4;
+		font-size: 0.7em;
+		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		cursor: pointer;
+	}
+	.navlist li a:hover:not(.navactive) {
+		background-color: aqua;
+		color: black;
+		cursor: pointer;
+	}
+	.navactive {
+		background-color: #2E365C;
+	}
+	/* for the box containing the title and author name */
+	header {
+    	background-color: #2E365C;
+		padding-top: 60px;
+		padding-bottom: 30px;
+		margin-top: 0px;
+    	margin-right: 0px;
+    	margin-bottom: 0px;
+    	margin-left: 0px;		
+	}
+
+	/* for the paragraphs that go under the smaller titles - not everything can be filler...right? */
+	p {
+		color: #B6BBDF;
+    	line-height: 20px;
+    	font-size: 20px;
+		margin-left: 350px;
+		margin-right: 350px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	/* for the one and only beautiful title that you stare at lovingly for all of 2 seconds */
+	h1 {
+		color: #f1eff4;
+		font-size: 80px;
+		font-family: 'Montserrat', sans-serif;
+		margin-left: 50px;
+		margin-right: 50px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		text-align: center;
+	}
+	/* for several of the secondary titles. ex: 1. Tone and Mood */
+	h3 {
+		color: #f1eff4;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 50px;
+		margin-left: 50px;
+		margin-right: 50px;
+		margin-top: 50px;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	.centerimage {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+	}
+	/* for margins of author image in typography section */
+	.typeauthorimage {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.floatimage {
+		display: block;
+		float: right;
+		margin-left: 20px;
+		margin-right: 20px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		width: 50%;
+	}
+	/* center aligns quotes */
+	.centerquote {
+		display: block;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		width: 60%;
+	}
+	.rightalign {
+		float: right;
+	}
+	.leftalign {
+		float: left;
+	}
+	/* for captions */
+	figcaption {
+		color: #B6BBDF;
+		font-family: 'Gabarito', cursive;
+		font-size: 20px;
+		margin-top: 10px;
+		margin-bottom: 30px;
+	}
+	/* for quotes */
+	q {
+		color: #90C3EB;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 35px;
+		font-style: italic;
+	}
+	h5 {
+		font-size: 20px;
+		font-family: 'Gabarito', cursive;
+		color: #B6BBDF;
+		margin-top: 40px;
+		margin-bottom: 10px;
+	}
+	h6 {
+		font-size: 20px;
+		font-family: 'Gabarito', cursive;
+		color: #B6BBDF;
+		margin-top: auto;
+		margin-bottom: 25px;
+	}
+	/* bullet point list (unlist = unordered list) */
+	.unlist {
+		color: #B6BBDF;
+		background-color: #2E365C;
+		padding-left: 80px;
+		padding-right: 80px;
+		padding-top: 60px;
+		padding-bottom: 60px;
+		font-size: 20px;
+		margin-left: 400px;
+		margin-right: 400px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	/* main button function */
+	.button {
+		border: none;
+		color: #FFFFFF;
+		font-family: 'Montserrat', sans-serif;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		transition-duration: 0.1s;
+		cursor: pointer;
+	}
+	/* what the button looks like */
+	.buttonmain {
+		background-color: #5667A3;
+		color: #f1eff4;
+	}
+	/* what your pretty button looks like after hovering over it */
+	.buttonmain:hover {
+		background-color: aqua;
+		color: black;
+	}
+	.buttoncontainer {
+		height: 60px;
+		position: relative;
+	}
+	.buttoncenter {
+		display: block;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		width: 60%;
+	}
+	/* unvisited link */
+	a:link {
+		color: #37C2D3;
+		text-decoration: none;
+	}
+	/* visited link */
+	a:visited {
+		color: #5E83F0;
+		text-decoration: none;
+	}
+	/* mouse over link */
+	a:hover {
+		color: #0DEEEA;
+		text-decoration: none;
+	}
+	/* selected link */
+	a:active {
+		color: #D2F3F7;
+		text-decoration: none;
+	}
+	footer {
+		background-color:
+			#B6BBDF;
+		padding: 200px;
+	}
